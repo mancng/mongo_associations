@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    color: green;
+    display: inline-block;
+}
+
+h4{
+    margin-bottom: 3px;
+}
+
+#wrapper{
+    width: 750px;
+    display: table;
+    margin: 0 auto;
+    padding: 30px;
+    border: 2px solid black;
+    margin-top: 30px;
+}
+
+#add_message{
+    margin: 10px;
+    padding: 10px;
+    border-top: 1px solid black;
+}
+
+.name_field, .message_textfield{
+    margin: 5px 0px;
+}
+
+#message_btn{
+    margin: 5px 0px 0px 590px;
+}
+
+#message{
+    margin-left: 60px;
+}
+
+#comments_details{
+    margin-left: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#add_comments{
+    margin-left: 60px;
+}
+
+#comment_btn{
+    margin-left: 485px;
+}
+
