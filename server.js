@@ -49,21 +49,6 @@ app.get('/', function(req, res){
     });
 });
 
-
-
-
-
-// app.get('/', function(req, res){
-//     Message.find({}, function(err, messages){
-//         if(err){
-//             console.log("Error when getting all messages");
-//         } else {
-            
-//             res.render('index', {allMessages: messages});
-//         };
-//     });
-// });
-
 app.post('/messages', function(req, res){
     // console.log("POST DATA: ", req.body);
 
